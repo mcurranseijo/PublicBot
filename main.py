@@ -15,7 +15,7 @@ async def on_ready():  # When the bot is ready
 
 
 extensions = [
-	'cogs.trivia','cogs.LastFm','cogs.weather'  # Same name as it would be if you were importing it
+	'cogs.loader',  # Same name as it would be if you were importing it
 ]
 
 if __name__ == '__main__':  # Ensures this is the file being ran
